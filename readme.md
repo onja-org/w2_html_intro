@@ -15,10 +15,10 @@ Open the terminal, run:
 
 **⚠️ if `code index.html` command does't recognize the `code` command:**  
 install it by following the video below, and re-run this command.  
-<video width="320" height="240" controls>
-  <source src="assets/install-code-cmd.mov" type="video/mp4">
-</video>
+![alt text](assets/install-code-cmd.gif)
 
+
+Now, once VS Code has opened the folder intro_to_html, open the file index.html, copy/paste the code below, and save.  
 ```html
 <html>
     <head>

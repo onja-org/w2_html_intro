@@ -1,17 +1,34 @@
 # HTML Basics Exercises  
 ## Objectives and Tasks  
 
-### 0. **Preparation of the project structure - (GIT 1/3)**  
+### 0. **Preparation of the project structure**  
 
 
-- **Create the directory and file**
+**Create the directory and file**  
+
 Open the terminal, run:
-`cd`
-`mkdir practices/html/intro_to_html`
-`cd practices/html/intro_to_html`
-`touch index.html`
-`code index.html`
-Now, in vs code copy/paste the [code given](https://github.com/onja-org/wave_2_projects/blob/practice/html/intro_to_html/index.html) and save.
+>  `cd`  
+>  `mkdir -p practices/html/intro_to_html`  
+>  `cd practices/html/intro_to_html`  
+>  `touch index.html`  
+>  `code index.html`  
+
+**⚠️ if `code index.html` command does't recognize the `code` command:**  
+install it by following the video below, and re-run this command.  
+<video width="320" height="240" controls>
+  <source src="assets/install-code-cmd.mov" type="video/mp4">
+</video>
+
+```html
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!--code here -->
+    </body>
+</html>
+```
 
 
 
@@ -88,7 +105,7 @@ Now, in vs code copy/paste the [code given](https://github.com/onja-org/wave_2_p
 **Task:**  
 - Add comments throughout the HTML document to explain what each section of the code does.  
 
-### 9. **Publishing - (GIT 2/3)**  
+### 9. **Publishing - (GIT Versionning 1/2)**  
 
 
 - ***Create the github repo***
@@ -116,7 +133,7 @@ You need to run every command lines in the red rectangle of the page you kept op
 `rm -rf .git`
 
 
-### 10. **Merge - (GIT 3/3)**  
+### 10. **Merge - (GIT Versionnig 2/2)**  
 
 Now you will make a new version of index.html on a new branch, by adding a comment.
 
